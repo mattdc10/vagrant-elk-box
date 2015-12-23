@@ -48,7 +48,6 @@ class { 'logstash':
  # require => [ Class['logstash'] ],
 #}
 
-
 # Kibana
 package { 'curl':
   ensure  => 'present',
